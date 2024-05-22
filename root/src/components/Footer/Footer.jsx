@@ -19,13 +19,13 @@ export default function Footer() {
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
-                                    <NavLink className={({isActive}) => `hover:underline ${isActive ? "bg-orange-700" : "bg-gray-700"}` } to="/" >
+                                <li className="mb-4"> 
+                                    <NavLink to="" className={({isActive}) => `hover:underline ${isActive ? "text-orange-700" : "text-gray-700"}` }  >
                                         Home
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/about" className={({isActive}) => `hover:underline ${isActive ? "bg-orange-700" : "bg-gray-700"}`}>
+                                    <NavLink to="about"  className={({isActive}) => `hover:underline ${isActive ? "text-orange-700" : "text-gray-700"}`}>
                                         About
                                     </NavLink>
                                 </li>
@@ -36,7 +36,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/priyanshpatel12345"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
